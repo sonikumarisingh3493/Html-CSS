@@ -1,0 +1,52 @@
+/* deafult design for laptop/destop */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkblue;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+      width: 600px;
+      height: auto;
+}
+
+/* responsive design for mobile */
+@media screen and (max-width: 600px){
+body {
+    background-color: lightyellow;
+}
+
+.container {
+    width: 95%;
+}
+
+h1{
+    font-size: 28px;
+    color: crimson;
+}
+
+p {
+    font-size: 28px;
+}
+
+img {
+    width: 100%;
+}
+}
